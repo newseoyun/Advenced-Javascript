@@ -1,6 +1,6 @@
 // ES5 and ES6   (ECMAScript === Javascript)
 
-// var , let , const
+// var , let , const  ES6이후로 const를 많이 씀.
 
 const player = 'bobby';  // constant value! 못바꿈
 let experience = 100;
@@ -12,7 +12,6 @@ if (experience > 90) {
 }
 
 console.log('outside', wizardLevel);  // let은 안팎 따로
-
 // inside true
 // outside false
 
@@ -30,10 +29,11 @@ const player2 = obj.player;
 
 console.log(player2);
 
-const greeting = `hello ${obj.player} you seem to be ${obj.experience}.`;
-console.log(greeting);
 
 console.log('---${ }--------------------------');
+
+const greeting = `hello ${obj.player} you seem to be ${obj.experience}.`;
+console.log(greeting);
 
 function greet(name='', age=50, pet='cat'){
     return `hello ${name}. you seem to be ${age+20}. what a nice ${pet}!`;
@@ -48,7 +48,7 @@ let sym1 = Symbol();
 let sym2 = Symbol('foo');
 let sym3 = Symbol('foo'); // 심볼은 특이한 일종의 사용자 정의 타입
 
-console.log('Symbol:', sym2===sym3);
+console.log('Symbol:', sym2===sym3); //false
 
 console.log('---arrow function--------------------------');
 function add(a, b) {

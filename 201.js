@@ -7,7 +7,9 @@ function isUserValid(bool) {
 }
 
 var answer = isUserValid(true) ? "You may enter" : "Access Denied";
+var answer2 = (3 === 3) ? "Three" : "what?";
 
+console.log(answer2);
 console.log(answer);
 
 
