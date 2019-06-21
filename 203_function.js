@@ -20,4 +20,4 @@ console.log(compose(sum, sum)(5));  // 7
 // sum(sum(5))
 
 // 안드레이는 각 동작단계를 scope,
-// 작동원리를 currying 이라고 표현하였다.
+// 되풀이되는 작동원리를 currying 이라고 표현하였다.
