@@ -27,7 +27,7 @@ function boo(string) {
             console.log(`${stirng} ${name} ${name2}`)
         }
     }
-} 밑에 에어로펑션으로
+} 밑에 에로우펑션으로
 */
 const boo = (stirng) => (name) => (name2) => console.log(`${stirng} ${name} ${name2}`)
 
